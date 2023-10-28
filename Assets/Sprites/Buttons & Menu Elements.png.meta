@@ -33,7 +33,7 @@ TextureImporter:
       213: -6746151221898619906
     second: Buttons & Menu Elements_8
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -53,6 +53,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -61,9 +63,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -84,9 +86,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -371,6 +377,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Among Us - Buttons & Menu Elements_0: -540741090743933955
+      Buttons & Menu Elements_1: -8367313386529535737
+      Buttons & Menu Elements_4: 1602779367873660821
+      Buttons & Menu Elements_5: 4095525942310618005
+      Buttons & Menu Elements_7: -55096854192759945
+      Buttons & Menu Elements_2: 8473489042873054369
+      Buttons & Menu Elements_6: -2907035942681726354
+      Buttons & Menu Elements_8: -6746151221898619906
+      Buttons & Menu Elements_3: 3701375362979043359
+      Buttons & Menu Elements_0: 2179771943753590615
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
