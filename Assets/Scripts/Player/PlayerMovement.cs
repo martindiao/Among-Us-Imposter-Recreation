@@ -150,9 +150,11 @@ public class PlayerMovement : MonoBehaviour
         playerSpriteRenderer.color = c;
         rigidbody2D.simulated = false;
         playerAudioController.StopWalking();
+        playerSpriteRenderer.enabled = false;
     }
     void EnablePlayer()
     {
+        playerSpriteRenderer.enabled = true;
         Color c = playerSpriteRenderer.color;
         c.a = 1;
         playerSpriteRenderer.color = c;
