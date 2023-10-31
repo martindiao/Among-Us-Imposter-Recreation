@@ -30,6 +30,11 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
         if (CanMove)
         {
             isMoving = false;
