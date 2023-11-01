@@ -55,7 +55,10 @@ public class PlayerKillController : MonoBehaviour
     public void Kill()
     {
         //Send notification for the player to be killed
+        float flash_a = 1.3f;
+        transform.position = flash_a * playerKillDetector.gameObject.transform.position + (1 - flash_a) * transform.position;
         playerKillDetector.Killed();
+
 
         //Start the CoolDown
         StartCoroutine(ResetKill());
